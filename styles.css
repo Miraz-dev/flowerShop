@@ -54,7 +54,7 @@ body{
 
 .text-container{
     /* width: 1440px; */
-    background-color: green;
+    /* background-color: green; */
     margin-bottom: 48px;
     display: flex;
     flex-direction: column;
@@ -143,7 +143,7 @@ body{
 /* Three flower section */
 /*******************************/
 .flower-container{
-    background-color: palegoldenrod;
+    /* background-color: palegoldenrod; */
     align-items: flex-end;
 }
 
@@ -222,7 +222,7 @@ body{
     background-color: #E554730D;
 }
 .sales-container{
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
 }
 .mb-24{
     margin-bottom: 24px;
@@ -241,7 +241,7 @@ body{
 }
 
 .sales-text{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 50%;
 
     display: flex;
@@ -252,4 +252,90 @@ body{
 .sales-desc{
     color: #27272799;
     font-size: 18px;
+}
+
+
+/*******************************/
+/* Four flower section */
+/*******************************/
+
+.four-flowers{
+    /* background-color: lightseagreen; */
+}
+
+.g-24{
+    gap: 24px;
+}
+
+
+/*******************************/
+/* Subscribe section */
+/*******************************/
+
+.subscribe-section{
+    /* background-color: lightseagreen; */
+}
+
+.subscribe-content{
+    background-image: url("FlowerAsset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: contain;
+}
+
+.email-sub{
+    /* background-color: lightgreen; */
+    gap: 16px;
+}
+
+.email-input{
+    width: 700px;
+    border-radius: 8px;
+    border: none;
+    padding: 23px 22px;
+    font-size: 16px;
+}
+
+.p-tb-121{
+    padding-top: 122px;
+    padding-bottom: 121px;
+}
+
+
+/*******************************/
+/* Footer section */
+/*******************************/
+
+.footer{
+    background-color: black;
+}
+.p-tb-128{
+    padding: 128px 0;
+}
+.footer-title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.footer-content{
+    /* background-color: grey; */
+}
+
+.footer-title> span{
+    color: #E55473;
+}
+
+.footer-desc {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
